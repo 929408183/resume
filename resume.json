@@ -1,0 +1,139 @@
+{
+    "titleNameMap":{
+        "educationList":"教育背景",
+        "workExpList":"工作经历",
+        "projectList":"项目经历",
+        "skillList":"个人技能",
+        "awardList":"更多信息",
+        "workList":"个人作品",
+        "aboutme":"自我介绍"
+    },
+    "avatar":{
+        "src": "https://portrait.gitee.com/uploads/avatars/user/2568/7705891_Java-liu_wenli_1655559382.png!avatar100",
+        "hidden": false
+    },
+    "profile":{
+        "name":"刘文理",
+        "email":"liu_wenli@foxmail.com",
+        "mobile":"15898535859",
+        "github":"",
+        "zhihu":"",
+        "workExpYear":"3年",
+        "workPlace":"湖南长沙",
+        "positionTitle":"Java开发工程师"
+    },
+    "educationList":[
+        {
+            "edu_time":["2016.09.01","2020.06.30"],
+            "school":"湖南工商大学",
+            "major":"软件工程 全日制统招",
+            "academic_degree":"本科",
+            "dataIndex":0
+        }
+    ],
+    "awardList":[
+
+    ],
+    "workExpList":[
+        {
+            "company_name":"长沙力智数字房产技术发展有限公司",
+            "department_name":"",
+            "work_time":["2020.07","至今"],
+            "work_desc":"",
+            "dataIndex":0
+        }
+    ],
+    "skillList":[
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"大学英语四级（CET-4），有良好的英语阅读能力。",
+            "dataIndex":0
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"Java 基础扎实，熟悉常见的 Java 集合等数据结构，熟悉常见的设计模式。"
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"熟悉 Spring(MVC、Boot、Cloud) / Mybatis等开源框架基本设计原理与使用方式，熟悉使用Mybatis-Plus插件进行敏捷开发。"
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"熟练使用IntelliJ IDEA进行开发，熟悉常用Linux命令，能在 Linux 上搭建和部署常用的服务，了解基本的 Docker 部署及常用的命令。"
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"熟悉 MySQL 、Oracle数据库，熟悉基本的数据库优化，熟悉 SQL 语句的编写。了解常见的分库分表。"
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"熟悉 Redis中间件及其常用命令、数据结构，熟悉 Redis 实现分布式锁、发布订阅等用法，了解RocketMQ 中间件及其可靠机制。"
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"熟悉 Nginx服务器基本配置与负载均衡与反向代理。了解 Tomcat服务器基本部署与配置。"
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"熟悉部分云产品，包括云服务器ECS、CDN内容分发、云日志服务，熟悉支付宝支付接口，了解其通知方式。"
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"了解常见的分布式解决方案，例如数据库缓存双写一致性解决方案、分布式权限解决方案、分布式锁等。熟悉 Spring Cloud 的基本组件的使用。"
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"熟悉Git、SVN版本控制软件的使用，熟练使用 Maven进行项目依赖构建。"
+        },
+        {
+            "skill_name":"",
+            "skill_level":null,
+            "skill_desc":"熟悉 JavaScript/HTML/CSS/Vue.js/Vue CLI/jQuery/Ant Design Vue/NutUI/Layui 的使用，了解 Vue 框架基本的使用，了解 thymeleaf、jsp等模板技术的基本使用方式。"
+        }
+    ],
+    "projectList":[
+        {
+            "project_name":"线上缴费项目",
+            "project_role":"核心开发者、开发组组长",
+            "project_content":"前端、后端开发。\n1. 订单过期处理模块：基于RocketMQ延迟通知实现。\n2. 短信模块：包括手机短信验证码、短信通知，使用RocketMQ异步发送。\n3. 前端基于Vue3.0、NutUI构建，后端基于SpringBoot构建。\n4. 对接第三方平台支付，包括长沙银行呼啦、星富通支付、通联支付\n5. 防止重复下单实现、支付页面、支付通知接口等等。",
+            "project_desc":"用于政府机构收缴资金提供软件服务，为业主提供线上缴存服务，无需线下到场，无时间空间限制，减轻窗口压力"
+        },
+        {
+            "project_name":"智慧物业项目",
+            "project_role":"核心开发者",
+            "project_content":"参与部分模块的设计、报表设计、编码工作和用户手册的编写；编写部分模块功能，流程设计，单据打印等，基于工作流引擎编写业务流程，并实现相关功能；",
+            "project_desc":"为政府机构业务办理、数据管理提供软件服务，方便政府单位进行管理，提高工作效率"
+        },
+        {
+            "project_name":"个人博客",
+            "project_role":"开发、部署、运维",
+            "project_content":"博客前台页面、后台页面、后端接口开发、项目部署、运维",
+            "project_desc":"用于编写日常随笔的博客网站，达到最高50，日均15左右独立IP访问量。 \n 基于Vue2.0、Vue Cli脚手架，包括博客分类、标签、文章、评论、友情链接模块的设计编写。其中文章使用Redis缓存，并基于Redis实现了阅读量、点赞数统计的功能。基于Vue实现了评论树、回复功能。"
+        }
+    ],
+    "workList":[
+        {
+            "work_name":"个人博客",
+            "work_desc":"业余时间写的博客 https://l-blog.cn",
+            "visit_link":"https://l-blog.cn",
+            "dataIndex":0
+        }
+    ],
+    "aboutme":{
+        "aboutme_desc":"1、有良好的编程习惯，能及时进行code review，对于关键代码会写Javadoc注释。\n2、获得大学英语四级证书。有良好的英语读写能力。\n3、工作积极主动，有进取心，对工作负责，能承受一定的工作压力，可适应一定强度的工作。\n4、学习能力突出，对新技术充满好奇，能很快的融入团队，适应工作 。\n5、具有团队合作精神，能与同事及时有效沟通，解决问题，敢于创新对新事物保持强烈的好奇心，勇于挑战尝试。\n6、积极参与各类活动，多次参与公司年会表演活动。\n"
+    },
+    "theme":{
+        "color":"#2f5785",
+        "tagColor":"#8bc34a"
+    }
+}
